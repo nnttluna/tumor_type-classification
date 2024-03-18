@@ -9,17 +9,21 @@ With the classification model applied on data of breast cancer to recognize the 
 
 Logistic regression is a linear model for classification which will provide the probabilities describing the possible outcomes of a single trial are modeled using a logistic function. Naive Bayes methods are a set of supervised learning algorithms based on applying Bayes’ theorem with the initial assumption of conditional independence between every pair of features given the value of the class variable. Basic decision trees are constructed via an algorithmic approach that identifies ways to split a data set based on different conditions, create a model that predicts the value of a target variable by learning simple decision rules interpreted from the data features. 
 
-When the models are actually implemented, the highest-accuracy performance appears to be **Naïve Bayes model**.
+Overall, since we are predicting if the tumor is benign or malignant and we would not want the model to justify the tumor is benign while it is actually malignant, the number of false negatives is extremely crucial and takes up more weight while evaluating the performance of the models. Thus, considering relatively high accuracy at 93% and the lowest number of false negatives reported, **Logistic Regression** is decided to be the most suitable model for this dataset among 3 at this instance. 
+
+# Data Visualization
+
+When the models are actually implemented, the highest accuracy at 96% performance appears to be **Naïve Bayes model**.
 
 ![image](https://github.com/nnttluna/tumor_type-classification/assets/103468427/96d14959-6935-4456-87d9-df61118ea423)
 
 
-**Basic Decision Trees** happened to be the lowest accuracy as well as the highest number of false negatives predicted, which indicated the least stable performance among all.
+**Basic Decision Trees** happened to be the lowest accuracy of 86% as well as the highest number of false values predicted, which indicated the least stable performance among all.
 
 ![image](https://github.com/nnttluna/tumor_type-classification/assets/103468427/3f0f1f49-2306-4d66-a13d-d84fe5f73304)
 
 
-With the observation on the characteristics of the data set and the binary categorization, **Logistic Regression** is overall performing with a relatively considerable accuracy of 93% and zero false negatives reported which is the lowest number of false negatives. Since we are predicting if the tumor is benign or malignant and we would not want the model to justify the tumor is benign while it is actually malignant, number of false negatives is extremely crucial while evaluating the performance of the models. 
+With the observation on the characteristics of the data set and the binary categorization, **Logistic Regression** is overall performing with a relatively considerable accuracy of 93% and zero false negatives reported which is the lowest number of false negatives. 
 
 ![image](https://github.com/nnttluna/tumor_type-classification/assets/103468427/a0ba6873-5f73-466c-ab80-0d6f5c050176)
 
