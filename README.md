@@ -1,5 +1,6 @@
-# Models for Tumor Type Diagnosis
-The project aims to develop a computer model to detect tumor type in using one model from each section, linear, non-linear and trees classification to assist in diagnosis. Two classes will be used in this project: Maglinent or Benign.
+# Models for Breast Cancer Tumor Type Diagnosis
+The project aims to develop a computer model to detect tumor type in using one model from each section, linear, non-linear and trees classification to assist in diagnosis. Physical features of the breast such as size, texture, and symmetry were used to determine
+whether or not an individual has a malignant tumor (binary prediction). In this data set there are 569 instances, 30 predictors, and 2 classes of classification are used in this project: Maglinent or Benign. 
 # Breast Cancer Dataset
 The Dataset for health and it is for Social Good: Women Coders' Bootcamp organized by Artificial Intelligence for Development in collaboration with UNDP Nepal.
 This database is also available through the UW CS ftp server:ftp ftp.cs.wisc.educd math-prog/cpo-dataset/machine-learn/WDBC/
